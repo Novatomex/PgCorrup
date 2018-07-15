@@ -2,15 +2,17 @@
 <html>
 <head>
 	<title>Pagina Prueba</title>
-
-	<link rel="stylesheet" href="../css/uikit.min.css" />
+    
+    <link rel="stylesheet" href="../css/uikit.min.css" />
     <link rel="stylesheet" href="../css/ps.css" />
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
 
-	<!-- UIkit JS -->
-	<script src="../js/uikit.min.js"></script>
-	<script src="../js/uikit-icons.min.js"></script>
-	<script src="http://ajax.microsoft.com/ajax/jquery/jquery-1.4.2.js" type="text/javascript"></script>
-	<script src="../js/menu.js"></script>
+    <!-- UIkit JS -->
+    <script src="../js/uikit.min.js"></script>
+    <script src="../js/uikit-icons.min.js"></script>
+    <script src="http://ajax.microsoft.com/ajax/jquery/jquery-1.4.2.js" type="text/javascript"></script>
+    <script src="../js/menu.js"></script>
+	
 </head>
 
 
