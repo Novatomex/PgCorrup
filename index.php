@@ -28,7 +28,7 @@
     </div>
     <div class="uk-width-expand" >
         <div class="uk-card uk-card-default uk-card-body" id="Contenido">
-        	hola<!--- Divicion Contenido-->
+        	<!--- Divicion Contenido-->
 
         </div>
     </div>
