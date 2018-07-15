@@ -3,14 +3,14 @@
 <head>
 	<title>Pagina Prueba</title>
 
-	<link rel="stylesheet" href="css/uikit.min.css" />
+	<link rel="stylesheet" href="../css/uikit.min.css" />
     <link rel="stylesheet" href="../css/ps.css" />
 
 	<!-- UIkit JS -->
-	<script src="js/uikit.min.js"></script>
-	<script src="js/uikit-icons.min.js"></script>
+	<script src="../js/uikit.min.js"></script>
+	<script src="../js/uikit-icons.min.js"></script>
 	<script src="http://ajax.microsoft.com/ajax/jquery/jquery-1.4.2.js" type="text/javascript"></script>
-	<script src="js/menu.js"></script>
+	<script src="../js/menu.js"></script>
 </head>
 
 
