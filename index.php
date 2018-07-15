@@ -20,19 +20,20 @@
 		
 	</div>
 	<div class="uk-text-center" uk-grid >
-    <div class="uk-width-1-5">
+    <div class="uk-width-1-5@m">
         <div class="uk-card uk-card-default uk-card-body">
         	<!--- Divicion izquierda -->
 
         </div>
     </div>
-    <div class="uk-width-expand" >
+    <div class="uk-width-expand@m" >
         <div class="uk-card uk-card-default uk-card-body" id="Contenido">
         	<!--- Divicion Contenido-->
+            <button class="uk-button uk-button-default"> Prueba</button>
 
         </div>
     </div>
-    <div class="uk-width-1-5">
+    <div class="uk-width-1-5@m">
         <div class="uk-card uk-card-default uk-card-body">
         	<!--- Divicion derecha -->
         </div>

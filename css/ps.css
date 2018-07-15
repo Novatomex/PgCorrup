@@ -8,3 +8,7 @@
     background: url('../img/carga.gif') 50% 50% no-repeat rgb(249,249,249);
     opacity: .8;
 }
+.estilo {
+	background-color: #45109e80;
+color: #fff;
+}
