@@ -3,7 +3,7 @@ function mostrarTemplate($tema, $variables)
 {
 	//var_dump($variables);
 	extract($variables);
-	eval("?>".$tema."<?");
+	/*eval("?>".$tema."<?");*/
 }
 
 function parsearTags($mensaje)
