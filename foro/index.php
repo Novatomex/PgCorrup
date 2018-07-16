@@ -15,14 +15,17 @@
 
 <body >
 	<div class="loader"></div>
+	<div id="encabezado"></div>
 	<div id="menu">
 		<!--- Divicion menu -->
-		
 	</div>
 	<div class="uk-text-center" uk-grid >
     <div class="uk-width-1-5">
         <div class="uk-card uk-card-default uk-card-body">
         	<!--- Divicion izquierda -->
+        	<div id="drss">
+        		
+        	</div>
 
         </div>
     </div>

@@ -11,20 +11,27 @@
     <script src="../js/uikit.min.js"></script>
     <script src="../js/uikit-icons.min.js"></script>
     <script src="http://ajax.microsoft.com/ajax/jquery/jquery-1.4.2.js" type="text/javascript"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
     <script src="../js/menu.js"></script>
+    <script src="../js/readrss.js"></script>
 	
 </head>
 
 
 <body >
+    <div class="loader"></div>
+        <div id="encabezado">
+        
+    </div>
 	<div id="menu">
 		<!--- Divicion menu -->
 		
 	</div>
 	<div class="uk-text-center" uk-grid >
     <div class="uk-width-1-5@m">
-        <div class="uk-card uk-card-default uk-card-body">
+        <div class="uk-card uk-card-default uk-card-body" >
         	<!--- Divicion izquierda -->
+            <div id="noticias"></div>
 
         </div>
     </div>

@@ -15,6 +15,9 @@
 
 
 <body >
+        <div id="encabezado">
+        
+    </div>
 	<div id="menu">
 		<!--- Divicion menu -->
 		
