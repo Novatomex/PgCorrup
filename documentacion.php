@@ -44,16 +44,16 @@
         	  		<td rowspan="3" style="width: 20%">
         	  			<div class="uk-width-auto@m">
 			                <ul class="uk-tab-left" uk-tab="connect: #component-tab-left; animation: uk-animation-fade">
-			                    <li><a href="#">ORIENTACIÓN LEGAL</a></li>
-			                    <li><a href="#">INICIA EL PROCESO</a></li>
-			                    <li><a href="#">SEGUIMIENTO DE DENUNCIA</a></li>
+			                    <li><a href="#">ARTÍCULOS</a></li>
+			                    <li><a href="#">ESTADÍSTICAS</a></li>
+			                    <li><a href="#">INFOGRAFÍAS</a></li>
 			                </ul>
 			            </div>
         	  		</td>
         	  		<td rowspan="3">
         	  			<ul id="component-tab-left" class="uk-switcher">
 		                    <li>
-		                    	<h2>ORIENTACIÓN LEGA</h2>
+		                    	<h2>ARTÍCULOS</h2>
 		                    	<hr>
 		                    	<p>
 		                    		Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
@@ -61,7 +61,7 @@
 		                    	
 		                    </li>
 		                    <li>
-		                    	<h2>INICIA EL PROCESO</h2>
+		                    	<h2>ESTADÍSTICAS</h2>
 		                    	<hr>
 		                    	<p>
 		                    		Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
@@ -69,7 +69,7 @@
 		                    	
 		                    </li>
 		                    <li>
-		                    	<h2>SEGUIMIENTO DE DENUNCIA</h2>
+		                    	<h2>INFOGRAFÍAS</h2>
 		                    	<hr>
 		                    	<p>
 		                    		Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur, sed do eiusmod.
@@ -91,10 +91,6 @@
         </div>
     </div>
 </div>
-<div  uk-grid>
-    <div class="uk-width-expand@m uk-background-secondary" id="pie">
-        
-    </div>
-</div>
+
 </body>
 </html>

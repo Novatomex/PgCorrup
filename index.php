@@ -46,7 +46,34 @@ include('fun/contador.php');
     <div class="uk-width-expand@m" >
         <div class="uk-card uk-card-default uk-card-body" id="Contenido">
         	<!--- Divicion Contenido-->
-            <button class="uk-button uk-button-default"> Prueba</button>
+            <h3 class="uk-card-title">¿QUE ES LO QUE HACEMOS?</h3>
+            <hr>
+            <p class="uk-dropcap">La página web a desarrollar estará orientada a población que haya sido víctima de petición de soborno o extorsión por parte de un agente de la policía, y que tenga intención de denunciar o informarse sobre las formas de evitar extorsiones y sobornos; así como que tenga interés en compartir sus experiencias en actos de corrupción y denuncias de esta. Se espera que los usuarios compartan los documentos y herramientas de difusión vía redes sociales, y colaboren en los mecanismos de participación..</p>
+
+            <hr class="uk-divider-icon">
+
+            <div class="uk-position-relative uk-visible-toggle uk-light" uk-slideshow="autoplay: true">
+
+                <ul class="uk-slideshow-items">
+                    <li>
+                        <div class="uk-background-cover uk-height-medium uk-panel uk-flex uk-flex-center uk-flex-middle" style="background-image: url(../img/1.jpg);">
+                    </li>
+                    <li>
+                       <div class="uk-background-cover uk-height-medium uk-panel uk-flex uk-flex-center uk-flex-middle" style="background-image: url(../img/3.jpg);">
+                        </div>
+                    </li>
+                </ul>
+
+                <a class="uk-position-center-left uk-position-small uk-hidden-hover" href="#" uk-slidenav-previous uk-slideshow-item="previous"></a>
+                <a class="uk-position-center-right uk-position-small uk-hidden-hover" href="#" uk-slidenav-next uk-slideshow-item="next"></a>
+
+            </div>
+
+             <hr class="uk-divider-icon">
+
+             <iframe width="560" height="315" src="https://www.youtube.com/embed/btAG0RVdVDw?rel=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+
+
 
         </div>
     </div>
