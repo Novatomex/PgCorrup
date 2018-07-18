@@ -78,18 +78,20 @@ include('fun/contador.php');
         </div>
     </div>
     <div class="uk-width-1-5@m">
-        <div class="uk-card uk-card-default uk-card-body">
+        <div class="uk-card uk-card-default uk-card-body uk-padding-remove-vertical">
         	<!--- Divicion derecha -->
             <p> Visitantes:  </p>
             <?php 
 
             echo MostrarVisitas("1");
             ?>
+            <br>
         </div>
-        <div class="uk-card uk-card-default uk-card-body">
+        <div class="uk-card uk-card-default uk-card-body uk-padding-remove-vertical">
             <hr>
             <!--- Divicion derecha -->
-            <h4>Videos</h4>
+            <h4 class="h3izde">Videos</h4>
+            <hr>
             <br>
             <iframe style="width: 100%; "  src="https://www.youtube.com/embed/WlDsLMEgsE4?rel=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
             <hr>
