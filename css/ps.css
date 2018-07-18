@@ -12,3 +12,9 @@
 	background-color: #45109e80;
 color: #fff;
 }
+th, td {
+    padding: 10px;
+}
+.h3bl{
+    color:#fff;
+}

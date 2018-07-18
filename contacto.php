@@ -1,5 +1,10 @@
 <!DOCTYPE html>
 <html>
+<?php 
+include('fun/contador.php');
+
+    ContadorV("7");
+?>
 <head>
 	<title>Pagina Prueba</title>
 
@@ -64,7 +69,17 @@
     <div class="uk-width-1-5">
         <div class="uk-card uk-card-default uk-card-body">
         	<!--- Divicion derecha -->
+            <p> Visitantes:  </p>
+            <?php 
+            
+            echo MostrarVisitas("7");
+            ?>
         </div>
+    </div>
+</div>
+<div  uk-grid>
+    <div class="uk-width-expand@m uk-background-secondary" id="pie">
+        
     </div>
 </div>
 

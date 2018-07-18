@@ -2,7 +2,7 @@
       //el archivo XML a procesar
       $.get("http://www.elfinanciero.com.mx/rss/", function(m) {
          xml = $(m);
-         var botija = 'Noticias'; //variable contenedor
+         var botija = 'Noticias <hr> '; //variable contenedor
          xml.find("item").each(function(i) {
             var $this = $(this);
                item = {

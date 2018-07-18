@@ -1,5 +1,10 @@
 <!DOCTYPE html>
 <html>
+<?php 
+include('../fun/contador.php');
+
+    ContadorV("3");
+?>
 <head>
 	<title>Pagina Prueba</title>
 
@@ -48,7 +53,7 @@
 					include('titulos.html'); 
 					?>
 
-					<table width="90%" border="1" align="center" cellpadding="2" cellspacing="2" >
+					<table width="90%" border="0" align="center" cellpadding="2" cellspacing="2" class="uk-table-striped">
 
 					<?php
 					while($row = mysqli_fetch_assoc($rs))
@@ -85,9 +90,18 @@
     <div class="uk-width-1-5">
         <div class="uk-card uk-card-default uk-card-body">
         	<!--- Divicion derecha -->
+        	<p> Visitantes:  </p>
+            <?php 
+            
+            echo MostrarVisitas("3");
+            ?>
         </div>
     </div>
 </div>
-
+<div  uk-grid>
+    <div class="uk-width-expand@m uk-background-secondary" id="pie">
+        
+    </div>
+</div>
 </body>
 </html>

@@ -1,6 +1,13 @@
+
 <!DOCTYPE html>
 <html>
+<?php 
+include('fun/contador.php');
+
+    ContadorV("1");
+?>
 <head>
+
 	<title>Pagina Prueba</title>
     
     <link rel="stylesheet" href="../css/uikit.min.css" />
@@ -14,6 +21,7 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
     <script src="../js/menu.js"></script>
     <script src="../js/readrss.js"></script>
+    
 	
 </head>
 
@@ -45,7 +53,32 @@
     <div class="uk-width-1-5@m">
         <div class="uk-card uk-card-default uk-card-body">
         	<!--- Divicion derecha -->
+            <p> Visitantes:  </p>
+            <?php 
+
+            echo MostrarVisitas("1");
+            ?>
         </div>
+        <div class="uk-card uk-card-default uk-card-body">
+            <hr>
+            <!--- Divicion derecha -->
+            <h4>Videos</h4>
+            <br>
+            <iframe style="width: 100%; "  src="https://www.youtube.com/embed/WlDsLMEgsE4?rel=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+            <hr>
+            <iframe style="width: 100%; " src="https://www.youtube.com/embed/j7-n676Qo2o?rel=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+            <hr>
+            <iframe style="width: 100%;" src="https://www.youtube.com/embed/0jL2cRs50ZY?rel=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+            <hr>
+            <iframe style="width: 100%;" src="https://www.youtube.com/embed/3r0mNpOyMS0?rel=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+        </div>
+        
+    </div>
+
+</div>
+<div  uk-grid>
+    <div class="uk-width-expand@m uk-background-secondary" id="pie">
+        
     </div>
 </div>
 

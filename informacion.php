@@ -1,5 +1,10 @@
 <!DOCTYPE html>
 <html>
+<?php 
+include('fun/contador.php');
+
+    ContadorV("4");
+?>
 <head>
 	<title>Pagina Prueba</title>
     
@@ -84,12 +89,11 @@
                                 
                             </li>
                             <li>
-                                <h2>Visión</h2>
+                                <h2>Encuestas ciudadanas</h2>
                                 <hr>
-                                <p>
-                                    Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur, sed do eiusmod.
-                                </p>
-                            </li>
+                                <iframe style="width: 100%; height: 4700px;" src="https://docs.google.com/forms/d/e/1FAIpQLSfY5Bb7JwpmLtZKz34jx23I4_1PRebS0iEx9yr5a1biC7mPEQ/viewform">
+                                    
+                                </iframe>                            </li>
                             <li>
                                 <h2> Nuestro equipo </h2>
                                 <hr>
@@ -127,9 +131,18 @@
     <div class="uk-width-1-5@m">
         <div class="uk-card uk-card-default uk-card-body">
         	<!--- Divicion derecha -->
+            <p> Visitantes:  </p>
+            <?php 
+            
+            echo MostrarVisitas("4");
+            ?>
         </div>
     </div>
 </div>
-
+<div  uk-grid>
+    <div class="uk-width-expand@m uk-background-secondary" id="pie">
+        
+    </div>
+</div>
 </body>
 </html>
