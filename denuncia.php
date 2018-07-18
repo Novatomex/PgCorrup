@@ -1,5 +1,10 @@
 <!DOCTYPE html>
 <html>
+<?php 
+include('fun/contador.php');
+
+    ContadorV("6");
+?>
 <head>
 	<title>Pagina Prueba</title>
 	
@@ -25,12 +30,14 @@
 		
 	</div>
 	<div class="uk-text-center" uk-grid >
-    <div class="uk-width-1-5">
-        <div class="uk-card uk-card-default uk-card-body">
+    <div class="uk-width-1-5@m">
+        <div class="uk-card uk-card-default uk-card-body" >
         	<!--- Divicion izquierda -->
+            <div id="noticias"></div>
 
         </div>
     </div>
+
     <div class="uk-width-expand" >
         <div class="uk-card uk-card-default uk-card-body" id="Contenido">
         	<!--- Divicion Contenido-->
@@ -85,10 +92,31 @@
 						
 		</div>
     </div>
-    <div class="uk-width-1-5">
-        <div class="uk-card uk-card-default uk-card-body">
+    <div class="uk-width-1-5@m">
+        <div class="uk-card uk-card-default uk-card-body uk-padding-remove-vertical">
         	<!--- Divicion derecha -->
+            <p> Visitantes:  </p>
+            <?php 
+
+            echo MostrarVisitas("6");
+            ?>
+            <br>
         </div>
+        <div class="uk-card uk-card-default uk-card-body uk-padding-remove-vertical">
+            <hr>
+            <!--- Divicion derecha -->
+            <h4 class="h3izde">Videos</h4>
+            <hr>
+            <br>
+            <iframe style="width: 100%; "  src="https://www.youtube.com/embed/WlDsLMEgsE4?rel=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+            <hr>
+            <iframe style="width: 100%; " src="https://www.youtube.com/embed/j7-n676Qo2o?rel=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+            <hr>
+            <iframe style="width: 100%;" src="https://www.youtube.com/embed/0jL2cRs50ZY?rel=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+            <hr>
+            <iframe style="width: 100%;" src="https://www.youtube.com/embed/3r0mNpOyMS0?rel=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+        </div>
+        
     </div>
 </div>
 <div  uk-grid>
