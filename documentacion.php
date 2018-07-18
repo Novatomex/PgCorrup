@@ -44,17 +44,16 @@
         	  		<td rowspan="3" style="width: 20%">
         	  			<div class="uk-width-auto@m">
 			                <ul class="uk-tab-left" uk-tab="connect: #component-tab-left; animation: uk-animation-fade">
-			                    <li><a href="#">¿Quienes Somos?</a></li>
-			                    <li><a href="#">Misión</a></li>
-			                    <li><a href="#">Visión</a></li>
-			                    <li><a href="#">Nuestro equipo</a></li>
+			                    <li><a href="#">ARTÍCULOS</a></li>
+			                    <li><a href="#">ESTADÍSTICAS</a></li>
+			                    <li><a href="#">INFOGRAFÍAS</a></li>
 			                </ul>
 			            </div>
         	  		</td>
         	  		<td rowspan="3">
         	  			<ul id="component-tab-left" class="uk-switcher">
 		                    <li>
-		                    	<h2> ¿Quienes Somos?</h2>
+		                    	<h2>ARTÍCULOS</h2>
 		                    	<hr>
 		                    	<p>
 		                    		Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
@@ -62,7 +61,7 @@
 		                    	
 		                    </li>
 		                    <li>
-		                    	<h2> Misión </h2>
+		                    	<h2>ESTADÍSTICAS</h2>
 		                    	<hr>
 		                    	<p>
 		                    		Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
@@ -70,17 +69,12 @@
 		                    	
 		                    </li>
 		                    <li>
-		                    	<h2>Visión</h2>
+		                    	<h2>INFOGRAFÍAS</h2>
 		                    	<hr>
 		                    	<p>
 		                    		Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur, sed do eiusmod.
 		                    	</p>
-		                    </li>
-		                    <li>
-		                    	<h2> Nuestro equipo </h2>
-		                    	<hr>
-		                    	<p> Somos talentum</p>
-		                    </li>
+		                    
 		                </ul>
         	  		</td>
         	  		
