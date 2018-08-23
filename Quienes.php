@@ -17,6 +17,7 @@ include('fun/contador.php');
 	<script src="../js/uikit-icons.min.js"></script>
 	<script src="http://ajax.microsoft.com/ajax/jquery/jquery-1.4.2.js" type="text/javascript"></script>
 	<script src="../js/menu.js"></script>
+	<script src="../js/readrss.js"></script>
 
 </head>
 

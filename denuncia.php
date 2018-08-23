@@ -17,6 +17,7 @@ include('fun/contador.php');
 	<script src="../js/uikit-icons.min.js"></script>
 	<script src="http://ajax.microsoft.com/ajax/jquery/jquery-1.4.2.js" type="text/javascript"></script>
 	<script src="../js/menu.js"></script>
+    <script src="../js/readrss.js"></script>
 
 </head>
 
@@ -60,7 +61,7 @@ include('fun/contador.php');
         	  		<td rowspan="3">
         	  			<ul id="component-tab-left" class="uk-switcher">
 		                    <li>
-		                    	<h2>ORIENTACIÓN LEGA</h2>
+		                    	<h2>ORIENTACIÓN LEGAL</h2>
 		                    	<hr>
 		                    	<p>
 		                    		Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.

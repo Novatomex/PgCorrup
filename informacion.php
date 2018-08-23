@@ -17,6 +17,7 @@ include('fun/contador.php');
     <script src="../js/uikit-icons.min.js"></script>
     <script src="http://ajax.microsoft.com/ajax/jquery/jquery-1.4.2.js" type="text/javascript"></script>
     <script src="../js/menu.js"></script>
+    <script src="../js/readrss.js"></script>
 	
 </head>
 
@@ -51,6 +52,7 @@ include('fun/contador.php');
                                 <li><a href="#">Organizaciones que me protegen</a></li>
                                 <li><a href="#">Encuestas ciudadanas</a></li>
                                 <li><a href="#">¿Fui victima de corrupción?</a></li>
+                                <li><a href="#"><b> Directorio </b></a></li>
                             </ul>
                         </div>
                     </td>
@@ -123,6 +125,129 @@ include('fun/contador.php');
                                         </div>
                                     </li>
                                 </ul>
+                            </li>
+                            <li>
+                                <h2> Directorio </h2>
+                                <hr>
+                                <h3>Conectactate con alguna de estas organizaciones y/o entidades.</h3>
+                                <ul uk-accordion>
+                                    <li>
+                                        <a class="uk-accordion-title" href="#">Dirección General de Asuntos Internos</a>
+                                        <div class="uk-accordion-content">
+                                            <p>Página oficial de la Secretaría de Seguridad Pública de la Ciudad de México.  Además de contener el reglamento de tránsito de la Ciudad de México, se puede denunciar cualquier tipo de actos de corrupción en la misma ciudad, ya sea por medio del formulario de denuncia que proporciona la página o por llamada telefónica. <br>
+                                            <b> Pagina Web: </b><br>
+                                            <a href="http://data.ssp.cdmx.gob.mx/dgip_denuncia.html"> http://data.ssp.cdmx.gob.mx/dgip_denuncia.html</a>
+                                            <br>
+                                            <b>Telefonos</b>
+                                            <br>
+                                            Tel. 52 08 74 45 ó 52 08 98 98
+                                            </p>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <a class="uk-accordion-title" href="#">Secretaría de Seguridad y Protección Ciudadana de Chiapas</a>
+                                        <div class="uk-accordion-content">
+                                            <p>Página oficial de la División de la Secretaria de Seguridad y Protección Ciudadana de Chiapas, que investiga los incidentes y sospechas en que un servidor público del área de Seguridad ha tenido una conducta inapropiada o cometido un delito. En esta página podrás hacer la denuncia a través del formulario proporcionado en la misma, por correo o por cualquiera de sus otros medios digitales <br>
+                                            <b> Pagina Web: </b><br>
+                                            <a href="https://www.sspc.chiapas.gob.mx/unidad_de_asuntos_internos"> https://www.sspc.chiapas.gob.mx/unidad_de_asuntos_internos</a>
+                                            <br>
+                                            <b>Telefonos</b>
+                                            <br>
+                                              Tel. 01 800 22 114 86 y 60 411 45
+                                              <br>
+                                              <b>E-mail</b>
+                                              <br>
+                                               aciudadana@sspc.chiapas.gob.mx <br>
+                                               uai_chiapas@hotmail.com
+                                            </p>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <a class="uk-accordion-title" href="#">Sistema de Atención Mexiquense</a>
+                                        <div class="uk-accordion-content">
+                                            <p>Sistema encargado de denuncias sobre diversos ámbitos, ya sea corrupción en servidores públicos, programas sociales, conductas de acoso sexual u hostigamiento laboral. En esta página se pueden realizar este tipo de denuncias, presentar sugerencias o reconocimientos al buen servicio, y da la posibilidad de conocer el seguimiento de la misma desde el portal WEB <br>
+                                            <b> Pagina Web: </b><br>
+                                            <a href="https://www.secogem.gob.mx/SAM/sit_atn_mex.asp"> https://www.secogem.gob.mx/SAM/sit_atn_mex.asp</a>
+                                            <br>
+                                            <b>Telefonos</b>
+                                            <br>
+                                            Tel. (01 800) 69 69 696
+                                            </p>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <a class="uk-accordion-title" href="#">Gobierno del Estado de Sonora</a>
+                                        <div class="uk-accordion-content">
+                                            <p>Portal que facilita denuncias ciudadanas en el Estado de Sonora, para actos de corrupción, quejas sobre servicio y reconocimientos a servidores públicos del estado. La página te da la opción de realizar la denuncia, queja o sugerencia a través de un formulario proporcionado, o por llamada telefónica<br>
+                                            <b> Pagina Web: </b><br>
+                                            <a href="http://decides.sonora.gob.mx/"> http://decides.sonora.gob.mx/</a>
+                                            <br>
+                                            <b>Telefonos</b>
+                                            <br>
+                                            Tel. 01 800 46 63 786
+                                            </p>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <a class="uk-accordion-title" href="#">Portal Anticorrupción</a>
+                                        <div class="uk-accordion-content">
+                                            <p>Portal para la ciudad de México, especializado en actos de corrupción. Además de que da la opción de presentar la denuncia por medio del mismo, proporciona información sobre indicadores de corrupción, consejos y una guía práctica para educar a niños y jóvenes en la cultura de la anticorrupción<br>
+                                            <b> Pagina Web: </b><br>
+                                            <a href="http://www.anticorrupcion.cdmx.gob.mx/ "> http://www.anticorrupcion.cdmx.gob.mx/ </a>
+                                            <br>
+                                            <b>Correo</b>
+                                            <br>
+                                            cmartineze@cdmx.gob.mx
+                                            </p>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <a class="uk-accordion-title" href="#">Centro de Integración Ciudadana</a>
+                                        <div class="uk-accordion-content">
+                                            <p>Portal WEB del Centro de Integración Ciudadana que canaliza las denuncias de los ciudadanos en materia de servicios públicos. Ofrece asesoría Legal y Psicológica. <br>
+                                            <b> Pagina Web: </b><br>
+                                            <a href="http://www.cic.mx/ ">http://www.cic.mx/ </a>
+                                            <br>
+                                            <b>Telefonos</b>
+                                            <br>
+                                            Tel. 01 800 838 8080
+                                            <br>
+                                            <b>Correo</b>
+                                            <br>
+                                            contacto@cic.mx
+                                            </p>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <a class="uk-accordion-title" href="#">Línea Directa Morelia</a>
+                                        <div class="uk-accordion-content">
+                                            <p>Página para denuncias sobre mal comportamiento de policías de tránsito en la ciudad de Morelia. También permite la denuncia de problemáticas como fallas en infrraestructura vial o peatonal por medio del portal WEB, la app para dispositivos móbiles o por llamada telefónica. En el mismo portal se puede dar el seguimiento a la denuncia.<br>
+                                            <b> Pagina Web: </b><br>
+                                            <a href="http://lineadirecta.morelia.gob.mx/ ">http://lineadirecta.morelia.gob.mx/ </a>
+                                            <br>
+                                            <b>Telefonos</b>
+                                            <br>
+                                            Tel. 072 (443) 312 01 01
+                                          
+                                            </p>
+                                        </div>
+                                    </li>
+                                     <li>
+                                        <a class="uk-accordion-title" href="#">Dirección de Seguridad Pública y Tránsito del Estado de Michoacán</a>
+                                        <div class="uk-accordion-content">
+                                            <p>Secretaría ante la cual se puede acudir para denunciar cualquier tipo de acto de corrupción especializado en seguridad pública y de tránsito. También se puede realizar la denuncia por llamada telefónica<br>
+                                            
+                                            <br>
+                                            <b>Telefonos</b>
+                                            <br>
+                                            Tel: 01 443 316 3646
+                                          
+                                            </p>
+                                        </div>
+                                    </li>
+                                </ul>
+
+
                             </li>
                         </ul>
                     </td>
